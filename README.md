@@ -3,7 +3,7 @@ First and foremost, the Terraform IaC scripts are based on an excellent on-line 
 The code automates the tasks of provisoning various AWS resources and deploying the targer micro service container as a Fargate service on an ECS cluster. The container is confgured to run as a pod of 3 replicas with the cluster capable of scaling automatically from a min of 3 nodes to a max of 6. <br />
 <br />
 To edit or use the code, copy the entire directory tree of assignment01-terraform-ecs to a local base directory or unzip assignment01-terraform-ecs.zip in there. <br>
-cd terraform and check out these tf files.
+cd terraform and check out these tf files. <br />
 variables.tf ---> AWS resource varialble definitions <br />
 provider.tf  ---> AWS provider resources <br />
 ecs.tf  ---> ECS cluster resources <br />
